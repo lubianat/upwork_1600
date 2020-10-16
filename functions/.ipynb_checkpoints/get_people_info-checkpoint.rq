@@ -1,0 +1,13 @@
+    SELECT DISTINCT ?item ?itemLabel ?birth ?death ?birthplaceLabel  ?coordinate
+
+    WHERE {
+    VALUES ?item {wd:Q12539 wd:Q43522 wd:Q76738 wd:Q35802 wd:Q1290 wd:Q39599 wd:Q47434 wd:Q102490 wd:nan wd:Q231256 wd:Q307 wd:nan wd:nan wd:Q154959 wd:Q935 wd:Q122392 wd:Q294100 wd:nan wd:Q8963 wd:Q9353 wd:Q159592 wd:Q235853 wd:Q188663 wd:Q160187 wd:Q60095 wd:Q214816 wd:Q192315 wd:Q75655 wd:Q270141 wd:Q9191 wd:Q43393 wd:Q46830 wd:Q214078 wd:nan wd:Q37621 wd:Q191850 wd:Q93128 }
+    ?item wdt:P31 wd:Q5.
+    OPTIONAL{?item wdt:P569 ?birth.} 
+    OPTIONAL{?item wdt:P570 ?death.}
+    OPTIONAL{?item wdt:P19 ?birthplace.
+            ?birthplace wdt:P625 ?coordinate.} 
+      
+    SERVICE wikibase:label { bd:serviceParam wikibase:language "[AUTO_LANGUAGE],en". }
+    }
+    
