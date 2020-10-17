@@ -1,9 +1,19 @@
 import requests
 from SPARQLWrapper import SPARQLWrapper, JSON
 import pandas as pd
-
 import time
-    
+
+def get_human_info_for_section(page, n):
+    time.sleep(1)
+    query = "https://en.wikipedia.org/w/api.php?action=parse&prop=links&page="+page + "&format=json&section=" + str(n)
+    links = requests.get(query)
+
+    links_df = pd.json_normalize(links.json()["parse"]["links"])
+    links_df = add_ids_and_urls_to_dataframe(links_df)
+    time.sleep(1)
+    human_info = return_data_about_humans(links_df["wikidata_id"])
+    human_info = human_info.merge(links_df[["wikidata_id", "page_url", "page_id"]])
+    return(human_info)
 
 def return_data_about_humans(array_of_qids) :
     time.sleep(1)
