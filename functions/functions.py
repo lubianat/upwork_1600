@@ -2,6 +2,47 @@ import requests
 from SPARQLWrapper import SPARQLWrapper, JSON
 import pandas as pd
 import time
+import os
+
+def detect_and_save_people_per_section(page):
+    query = "https://en.wikipedia.org/w/api.php?action=parse&prop=sections&page="+page+"&format=json"
+    sections = requests.get(query)
+    sections_df = pd.json_normalize(sections.json()["parse"]["sections"])
+
+    human_infos_by_section = {}
+
+    for i in range(0,len(sections_df)):
+        print(i+1)
+        n = i+1
+        try:
+            human_info = functions.get_human_info_for_section(page, n)
+        except:
+            try:
+                human_info = functions.get_human_info_for_section(page, n)
+            except:
+                try:
+                    human_info = functions.get_human_info_for_section(page, n)
+                except:
+                    human_info = "failed"
+
+        human_infos_by_section[sections_df["anchor"][i]] =  human_info
+
+    path = "./"+page
+
+    try:
+        os.mkdir(path)
+    except OSError:
+        print ("Creation of the directory %s failed" % path)
+    else:
+        print ("Successfully created the directory %s " % path)
+
+    for i in human_infos_by_section:
+        print(i)
+        title = "./"+page + "/" + i + ".csv"
+        try:
+            (human_infos_by_section[i].to_csv(title))
+        except:
+            pass  
 
 def get_human_info_for_section(page, n):
     time.sleep(1)

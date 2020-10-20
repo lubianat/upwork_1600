@@ -3,36 +3,36 @@
 1,Q159592,John Napier,1550-01-01T00:00:00Z,Merchiston Tower,Point(-3.213888888 55.933333333),1617-04-04T00:00:00Z,https://en.wikipedia.org/wiki/John Napier,15993.0
 2,Q46830,Robert Hooke,1635-07-18T00:00:00Z,Freshwater,Point(-1.524883333 50.682566666),1703-03-03T00:00:00Z,https://en.wikipedia.org/wiki/Robert Hooke,49720.0
 3,Q46830,Robert Hooke,1635-07-28T00:00:00Z,Freshwater,Point(-1.524883333 50.682566666),1703-03-03T00:00:00Z,https://en.wikipedia.org/wiki/Robert Hooke,49720.0
-4,Q93128,William Harvey,1578-04-11T00:00:00Z,Folkestone,Point(1.164722222 51.081388888),1657-06-03T00:00:00Z,https://en.wikipedia.org/wiki/William Harvey,50203.0
-5,Q191850,Tommaso Campanella,1568-09-14T00:00:00Z,Stilo,Point(16.466666666 38.483333333),1639-05-21T00:00:00Z,https://en.wikipedia.org/wiki/Tommaso Campanella,163720.0
-6,Q47434,Edmund Halley,1656-11-08T00:00:00Z,Haggerston,Point(-0.076630555 51.534630555),1742-01-25T00:00:00Z,https://en.wikipedia.org/wiki/Edmond Halley,36858805.0
-7,Q154959,Hugo Grotius,1583-04-10T00:00:00Z,Delft,Point(4.359444444 52.011944444),1645-08-28T00:00:00Z,https://en.wikipedia.org/wiki/Hugo Grotius,66612.0
-8,Q307,Galileo Galilei,1564-02-25T00:00:00Z,Pisa,Point(10.4 43.716666666),1642-01-08T00:00:00Z,https://en.wikipedia.org/wiki/Galileo Galilei,29688374.0
-9,Q294100,Jacques-Bénigne Bossueteta,1627-09-27T00:00:00Z,Dijon,Point(5.041944444 47.323055555),1704-04-12T00:00:00Z,https://en.wikipedia.org/wiki/Jacques-Bénigne Bossuet,63351.0
-10,Q9191,René Descartes,1596-03-31T00:00:00Z,Descartes,Point(0.697777777 46.973611111),1650-02-11T00:00:00Z,https://en.wikipedia.org/wiki/René Descartes,25525.0
-11,Q39599,Christiaan Huygens,1629-04-14T00:00:00Z,The Hague,Point(4.29861 52.07667),1695-07-08T00:00:00Z,https://en.wikipedia.org/wiki/Christiaan Huygens,42127.0
-12,Q39599,Christiaan Huygens,1629-04-14T00:00:00Z,The Hague,Point(4.29861 52.07667),1695-06-08T00:00:00Z,https://en.wikipedia.org/wiki/Christiaan Huygens,42127.0
-13,Q35802,Benedictus de Spinoza,1632-11-24T00:00:00Z,Amsterdam,Point(4.9 52.383333333),1677-02-21T00:00:00Z,https://en.wikipedia.org/wiki/Baruch Spinoza,3408.0
-14,Q8963,Johannes Kepler,1572-01-06T00:00:00Z,Weil der Stadt,Point(8.870555555 48.750833333),1630-11-15T00:00:00Z,https://en.wikipedia.org/wiki/Johannes Kepler,15736.0
-15,Q76738,Athanasius Kircher,1601-05-02T00:00:00Z,Geisa,Point(9.966666666 50.716666666),1680-11-28T00:00:00Z,https://en.wikipedia.org/wiki/Athanasius Kircher,93815.0
-16,Q76738,Athanasius Kircher,1601-05-02T00:00:00Z,Geisa,Point(9.966666666 50.716666666),1680-11-27T00:00:00Z,https://en.wikipedia.org/wiki/Athanasius Kircher,93815.0
-17,Q76738,Athanasius Kircher,1602-05-02T00:00:00Z,Geisa,Point(9.966666666 50.716666666),1680-11-28T00:00:00Z,https://en.wikipedia.org/wiki/Athanasius Kircher,93815.0
-18,Q76738,Athanasius Kircher,1602-05-02T00:00:00Z,Geisa,Point(9.966666666 50.716666666),1680-11-27T00:00:00Z,https://en.wikipedia.org/wiki/Athanasius Kircher,93815.0
-19,Q160187,Ole Rømer,1644-09-25T00:00:00Z,Aarhus,Point(10.209722222 56.156388888),1710-09-19T00:00:00Z,https://en.wikipedia.org/wiki/Ole Rømer,22459.0
-20,Q192315,Pierre Gassendi,1592-01-22T00:00:00Z,Champtercier,Point(6.163333333 44.095277777),1655-10-24T00:00:00Z,https://en.wikipedia.org/wiki/Pierre Gassendi,197030.0
-21,Q43522,Antonie van Leeuwenhoek,1632-10-24T00:00:00Z,Delft,Point(4.35556 52.00667),1723-08-26T00:00:00Z,https://en.wikipedia.org/wiki/Antonie van Leeuwenhoek,42001.0
-22,Q231256,Francis de Sales,1567-08-26T00:00:00Z,Château de Thorens,Point(6.25555556 45.99361111),1622-12-28T00:00:00Z,https://en.wikipedia.org/wiki/Francis de Sales,1539420.0
-23,Q214816,Pierre Bayle,1647-11-18T00:00:00Z,Carla-Bayle,Point(1.393611111 43.150555555),1706-12-28T00:00:00Z,https://en.wikipedia.org/wiki/Pierre Bayle,308126.0
-24,Q122392,Jacob Bernoulli,1655-01-06T00:00:00Z,Basel,Point(7.590555555 47.560555555),1705-08-16T00:00:00Z,https://en.wikipedia.org/wiki/Jacob Bernoulli,64740.0
-25,Q935,Isaac Newton,1643-01-04T00:00:00Z,Woolsthorpe Manor,Point(-0.630556 52.809167),1727-03-31T00:00:00Z,https://en.wikipedia.org/wiki/Isaac Newton,14627.0
-26,Q37621,Thomas Hobbes,1588-04-05T00:00:00Z,Westport,Point(-2.10135 51.5854),1679-12-04T00:00:00Z,https://en.wikipedia.org/wiki/Thomas Hobbes,29823.0
-27,Q1290,Blaise Pascal,1623-06-19T00:00:00Z,Clermont-Ferrand,Point(3.086944444 45.779722222),1662-08-19T00:00:00Z,https://en.wikipedia.org/wiki/Blaise Pascal,4068.0
-28,Q60095,Otto von Guericke,1602-11-20T00:00:00Z,Magdeburg,Point(11.629166666 52.127777777),1686-05-11T00:00:00Z,https://en.wikipedia.org/wiki/Otto von Guericke,49828.0
-29,Q9353,John Locke,1632-08-29T00:00:00Z,Wrington,Point(-2.7606 51.3617),1704-10-28T00:00:00Z,https://en.wikipedia.org/wiki/John Locke,16143.0
-30,Q43393,Robert Boyle,1627-01-25T00:00:00Z,Lismore Castle,Point(-7.933 52.139),1691-12-31T00:00:00Z,https://en.wikipedia.org/wiki/Robert Boyle,50237.0
-31,Q43393,Robert Boyle,1627-01-25T00:00:00Z,Lismore Castle,Point(-7.933 52.139),1691-12-30T00:00:00Z,https://en.wikipedia.org/wiki/Robert Boyle,50237.0
-32,Q102490,Evangelista Torricelli,1608-10-15T00:00:00Z,Rome,Point(12.482777777 41.893055555),1647-10-25T00:00:00Z,https://en.wikipedia.org/wiki/Evangelista Torricelli,210413.0
-33,Q235853,María Valentina Cassettari,1647-07-22T00:00:00Z,Saône-et-Loire,Point(4.7 46.666666666),1690-10-17T00:00:00Z,https://en.wikipedia.org/wiki/Margaret Mary Alacoque,1715005.0
-34,Q235853,María Valentina Cassettari,1647-07-22T00:00:00Z,Verosvres,Point(4.443055555 46.400555555),1690-10-17T00:00:00Z,https://en.wikipedia.org/wiki/Margaret Mary Alacoque,1715005.0
+4,Q294100,Jacques-Bénigne Bossueteta,1627-09-27T00:00:00Z,Dijon,Point(5.041944444 47.323055555),1704-04-12T00:00:00Z,https://en.wikipedia.org/wiki/Jacques-Bénigne Bossuet,63351.0
+5,Q93128,William Harvey,1578-04-11T00:00:00Z,Folkestone,Point(1.164722222 51.081388888),1657-06-03T00:00:00Z,https://en.wikipedia.org/wiki/William Harvey,50203.0
+6,Q191850,Tommaso Campanella,1568-09-14T00:00:00Z,Stilo,Point(16.466666666 38.483333333),1639-05-21T00:00:00Z,https://en.wikipedia.org/wiki/Tommaso Campanella,163720.0
+7,Q47434,Edmund Halley,1656-11-08T00:00:00Z,Haggerston,Point(-0.076630555 51.534630555),1742-01-25T00:00:00Z,https://en.wikipedia.org/wiki/Edmond Halley,36858805.0
+8,Q154959,Hugo Grotius,1583-04-10T00:00:00Z,Delft,Point(4.359444444 52.011944444),1645-08-28T00:00:00Z,https://en.wikipedia.org/wiki/Hugo Grotius,66612.0
+9,Q235853,María Valentina Cassettari,1647-07-22T00:00:00Z,Saône-et-Loire,Point(4.7 46.666666666),1690-10-17T00:00:00Z,https://en.wikipedia.org/wiki/Margaret Mary Alacoque,1715005.0
+10,Q235853,María Valentina Cassettari,1647-07-22T00:00:00Z,Verosvres,Point(4.443055555 46.400555555),1690-10-17T00:00:00Z,https://en.wikipedia.org/wiki/Margaret Mary Alacoque,1715005.0
+11,Q307,Galileo Galilei,1564-02-25T00:00:00Z,Pisa,Point(10.4 43.716666666),1642-01-08T00:00:00Z,https://en.wikipedia.org/wiki/Galileo Galilei,29688374.0
+12,Q9191,René Descartes,1596-03-31T00:00:00Z,Descartes,Point(0.697777777 46.973611111),1650-02-11T00:00:00Z,https://en.wikipedia.org/wiki/René Descartes,25525.0
+13,Q39599,Christiaan Huygens,1629-04-14T00:00:00Z,The Hague,Point(4.29861 52.07667),1695-07-08T00:00:00Z,https://en.wikipedia.org/wiki/Christiaan Huygens,42127.0
+14,Q39599,Christiaan Huygens,1629-04-14T00:00:00Z,The Hague,Point(4.29861 52.07667),1695-06-08T00:00:00Z,https://en.wikipedia.org/wiki/Christiaan Huygens,42127.0
+15,Q35802,Benedictus de Spinoza,1632-11-24T00:00:00Z,Amsterdam,Point(4.9 52.383333333),1677-02-21T00:00:00Z,https://en.wikipedia.org/wiki/Baruch Spinoza,3408.0
+16,Q8963,Johannes Kepler,1572-01-06T00:00:00Z,Weil der Stadt,Point(8.870555555 48.750833333),1630-11-15T00:00:00Z,https://en.wikipedia.org/wiki/Johannes Kepler,15736.0
+17,Q76738,Athanasius Kircher,1601-05-02T00:00:00Z,Geisa,Point(9.966666666 50.716666666),1680-11-28T00:00:00Z,https://en.wikipedia.org/wiki/Athanasius Kircher,93815.0
+18,Q76738,Athanasius Kircher,1601-05-02T00:00:00Z,Geisa,Point(9.966666666 50.716666666),1680-11-27T00:00:00Z,https://en.wikipedia.org/wiki/Athanasius Kircher,93815.0
+19,Q76738,Athanasius Kircher,1602-05-02T00:00:00Z,Geisa,Point(9.966666666 50.716666666),1680-11-28T00:00:00Z,https://en.wikipedia.org/wiki/Athanasius Kircher,93815.0
+20,Q76738,Athanasius Kircher,1602-05-02T00:00:00Z,Geisa,Point(9.966666666 50.716666666),1680-11-27T00:00:00Z,https://en.wikipedia.org/wiki/Athanasius Kircher,93815.0
+21,Q160187,Ole Rømer,1644-09-25T00:00:00Z,Aarhus,Point(10.209722222 56.156388888),1710-09-19T00:00:00Z,https://en.wikipedia.org/wiki/Ole Rømer,22459.0
+22,Q192315,Pierre Gassendi,1592-01-22T00:00:00Z,Champtercier,Point(6.163333333 44.095277777),1655-10-24T00:00:00Z,https://en.wikipedia.org/wiki/Pierre Gassendi,197030.0
+23,Q43522,Antonie van Leeuwenhoek,1632-10-24T00:00:00Z,Delft,Point(4.35556 52.00667),1723-08-26T00:00:00Z,https://en.wikipedia.org/wiki/Antonie van Leeuwenhoek,42001.0
+24,Q231256,Francis de Sales,1567-08-26T00:00:00Z,Château de Thorens,Point(6.25555556 45.99361111),1622-12-28T00:00:00Z,https://en.wikipedia.org/wiki/Francis de Sales,1539420.0
+25,Q214816,Pierre Bayle,1647-11-18T00:00:00Z,Carla-Bayle,Point(1.393611111 43.150555555),1706-12-28T00:00:00Z,https://en.wikipedia.org/wiki/Pierre Bayle,308126.0
+26,Q122392,Jacob Bernoulli,1655-01-06T00:00:00Z,Basel,Point(7.590555555 47.560555555),1705-08-16T00:00:00Z,https://en.wikipedia.org/wiki/Jacob Bernoulli,64740.0
+27,Q935,Isaac Newton,1643-01-04T00:00:00Z,Woolsthorpe Manor,Point(-0.630556 52.809167),1727-03-31T00:00:00Z,https://en.wikipedia.org/wiki/Isaac Newton,14627.0
+28,Q37621,Thomas Hobbes,1588-04-05T00:00:00Z,Westport,Point(-2.10135 51.5854),1679-12-04T00:00:00Z,https://en.wikipedia.org/wiki/Thomas Hobbes,29823.0
+29,Q1290,Blaise Pascal,1623-06-19T00:00:00Z,Clermont-Ferrand,Point(3.086944444 45.779722222),1662-08-19T00:00:00Z,https://en.wikipedia.org/wiki/Blaise Pascal,4068.0
+30,Q60095,Otto von Guericke,1602-11-20T00:00:00Z,Magdeburg,Point(11.629166666 52.127777777),1686-05-11T00:00:00Z,https://en.wikipedia.org/wiki/Otto von Guericke,49828.0
+31,Q9353,John Locke,1632-08-29T00:00:00Z,Wrington,Point(-2.7606 51.3617),1704-10-28T00:00:00Z,https://en.wikipedia.org/wiki/John Locke,16143.0
+32,Q43393,Robert Boyle,1627-01-25T00:00:00Z,Lismore Castle,Point(-7.933 52.139),1691-12-31T00:00:00Z,https://en.wikipedia.org/wiki/Robert Boyle,50237.0
+33,Q43393,Robert Boyle,1627-01-25T00:00:00Z,Lismore Castle,Point(-7.933 52.139),1691-12-30T00:00:00Z,https://en.wikipedia.org/wiki/Robert Boyle,50237.0
+34,Q102490,Evangelista Torricelli,1608-10-15T00:00:00Z,Rome,Point(12.482777777 41.893055555),1647-10-25T00:00:00Z,https://en.wikipedia.org/wiki/Evangelista Torricelli,210413.0
 35,Q188663,Marin Mersenne,1588-09-08T00:00:00Z,Oizé,Point(0.103333333 47.810555555),1648-09-01T00:00:00Z,https://en.wikipedia.org/wiki/Marin Mersenne,72947.0
 36,Q75655,Pierre de Fermat,1601-08-17T00:00:00Z,Beaumont-de-Lomagne,Point(0.988333333 43.883055555),1665-01-12T00:00:00Z,https://en.wikipedia.org/wiki/Pierre de Fermat,7576966.0
