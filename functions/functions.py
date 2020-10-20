@@ -3,6 +3,76 @@ from SPARQLWrapper import SPARQLWrapper, JSON
 import pandas as pd
 import time
 import os
+import wikitextparser as wtp
+import mwparserfromhell
+
+def get_main_text(df):
+    full_texts = {}
+    for i, row in df.iterrows():
+        text = row["wikitext_string"]
+        entry = row["id"]
+
+        wikicode = mwparserfromhell.parse(text)
+        full_texts[entry] = wikicode.strip_code()
+
+    df["main_text"] = df["id"].map(full_texts)
+    return(df)
+
+
+def get_years_from_bullets(df):
+    from_years = {}
+    to_years = {}
+    for i, row in df.iterrows():
+        date_string = row["date_string"]
+        entry = row["id"]
+
+        wikilinks = wtp.parse(date_string).wikilinks
+        from_years[entry] = wikilinks[0].target
+
+        if len(wikilinks) == 2:
+            to_years[entry] = wikilinks[1].target
+        else:
+            to_years[entry] = None
+            
+    df["from_year"] = df["id"].map(from_years)
+    df["to_year"] = df["id"].map(to_years)
+    return(df)
+    
+        
+        
+def get_bullets_on_page_section(page, section="1"):
+    
+    """
+    Arguments
+        page: A title of an Wikipedia page
+        section: A string with the number of a page section. Defaults to "1"
+        
+    Returns
+        title_to_page_id: A dict matching titles to ids
+    """
+
+    query = "https://en.wikipedia.org/w/api.php?action=parse&format=json&page=" + page + "&prop=wikitext&section=" + section + "&disabletoc=1"
+    wikitext = requests.get(query)
+
+    df = pd.DataFrame(columns=["date_string", "wikitext_string"])
+    section_text = wikitext.json()["parse"]["wikitext"]["*"]
+    section_text_in_chunks = section_text.split("*")
+    for text in section_text_in_chunks:
+        data = text.split(":",1)
+
+        if len(data) == 2:
+            row = {"date_string":data[0], "wikitext_string":data[1]}
+            df = df.append(row, ignore_index=True)
+    
+    return(df)
+
+
+def get_sections_dataframe(page_title):
+    query = "https://en.wikipedia.org/w/api.php?action=parse&prop=sections&page="+ page_title + "&format=json"
+    sections = requests.get(query)
+    sections_df = pd.json_normalize(sections.json()["parse"]["sections"])
+    return(sections_df)
+
 
 def detect_and_save_people_per_section(page):
     query = "https://en.wikipedia.org/w/api.php?action=parse&prop=sections&page="+page+"&format=json"
@@ -123,3 +193,26 @@ def add_ids_and_urls_to_dataframe(links_df):
     links_df["wikidata_id"] = links_df["*"].map(wikidata_ids)
     
     return(links_df)
+
+def get_wikipedia_page_ids(page_titles):
+    """
+    
+    Arguments
+        page_titles: A list of page titles
+        
+    Returns
+        title_to_page_id: A dict matching titles to ids
+    """
+    url = (
+        'https://en.wikipedia.org/w/api.php'
+        '?action=query'
+        '&prop=info'
+        '&inprop=subjectid'
+        '&format=json'
+        '&titles=' + '|'.join(page_titles)
+        )
+    query_result = requests.get(url)
+    json_response = requests.get(url).json()
+    title_to_page_id  = {
+        page_info['title']: page_id
+        for page_id, page_info in json_response['query']['pages'].items()}
